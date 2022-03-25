@@ -2,6 +2,7 @@ package com.creep3rcrafter.creep3rcore;
 
 import com.creep3rcrafter.creep3rcore.client.renderer.RisingBlockRenderer;
 import com.creep3rcrafter.creep3rcore.register.ModEntities;
+import com.creep3rcrafter.creep3rcore.util.register.Register;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.client.registry.RenderingRegistry;
@@ -16,7 +17,7 @@ public class Creep3rCore {
 
     public Creep3rCore() {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        ModEntities.register(eventBus);
+        Register.register(eventBus, ModEntities.ENTITY_TYPES);
         eventBus.addListener(this::commonSetup);
         eventBus.addListener(this::clientSetup);
         MinecraftForge.EVENT_BUS.register(this);
