@@ -1,7 +1,7 @@
 package com.creep3rcrafter.creep3rcore;
 
 import com.creep3rcrafter.creep3rcore.client.renderer.RisingBlockRenderer;
-import com.creep3rcrafter.creep3rcore.register.ModEntities;
+import com.creep3rcrafter.creep3rcore.common.register.ModEntities;
 import com.creep3rcrafter.creep3rcore.util.register.Register;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;

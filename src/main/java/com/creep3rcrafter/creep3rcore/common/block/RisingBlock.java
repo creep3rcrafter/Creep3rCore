@@ -1,6 +1,6 @@
-package com.creep3rcrafter.creep3rcore.block;
+package com.creep3rcrafter.creep3rcore.common.block;
 
-import com.creep3rcrafter.creep3rcore.entity.RisingBlockEntity;
+import com.creep3rcrafter.creep3rcore.common.entity.RisingBlockEntity;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;

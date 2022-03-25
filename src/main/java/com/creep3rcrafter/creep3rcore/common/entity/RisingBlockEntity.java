@@ -1,7 +1,7 @@
-package com.creep3rcrafter.creep3rcore.entity;
+package com.creep3rcrafter.creep3rcore.common.entity;
 
-import com.creep3rcrafter.creep3rcore.block.RisingBlock;
-import com.creep3rcrafter.creep3rcore.register.ModEntities;
+import com.creep3rcrafter.creep3rcore.common.block.RisingBlock;
+import com.creep3rcrafter.creep3rcore.common.register.ModEntities;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;

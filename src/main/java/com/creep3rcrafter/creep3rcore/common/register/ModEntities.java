@@ -1,7 +1,7 @@
-package com.creep3rcrafter.creep3rcore.register;
+package com.creep3rcrafter.creep3rcore.common.register;
 
 import com.creep3rcrafter.creep3rcore.Creep3rCore;
-import com.creep3rcrafter.creep3rcore.entity.RisingBlockEntity;
+import com.creep3rcrafter.creep3rcore.common.entity.RisingBlockEntity;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.EntityType;
 import net.minecraftforge.fml.RegistryObject;

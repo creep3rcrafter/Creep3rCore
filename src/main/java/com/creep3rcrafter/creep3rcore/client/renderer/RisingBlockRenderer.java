@@ -1,6 +1,6 @@
 package com.creep3rcrafter.creep3rcore.client.renderer;
 
-import com.creep3rcrafter.creep3rcore.entity.RisingBlockEntity;
+import com.creep3rcrafter.creep3rcore.common.entity.RisingBlockEntity;
 import com.mojang.blaze3d.matrix.MatrixStack;
 import net.minecraft.block.BlockRenderType;
 import net.minecraft.block.BlockState;
